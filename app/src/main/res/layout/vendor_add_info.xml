@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".VendorAddInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/info_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/info_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="User Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/info_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Phone Number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/confirm_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Confirm Phone Number"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/loc_spin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:ems="10"
+            android:entries="@array/location_array"
+            android:paddingTop="20dp"
+            android:prompt="@string/location_list"
+            android:spinnerMode="dropdown"
+            android:textAlignment="gravity" />
+
+
+        <Button
+            android:id="@+id/info_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_style"
+            android:text="Continue" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

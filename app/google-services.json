@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21026568392",
+    "firebase_url": "https://ibuy-97a3e.firebaseio.com",
+    "project_id": "ibuy-97a3e",
+    "storage_bucket": "ibuy-97a3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21026568392:android:298001eb6278db29",
+        "android_client_info": {
+          "package_name": "com.apps.gerrykyalo.ibuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21026568392-lnt6hetsq27i2i3n0b97d4r4p6q9cvc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArB3ZtJ3G18L_H8wJSFqUeH3Yvwo0CoCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21026568392-lnt6hetsq27i2i3n0b97d4r4p6q9cvc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
